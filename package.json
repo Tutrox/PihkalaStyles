@@ -1,0 +1,29 @@
+{
+  "name": "pihkalastyles",
+  "version": "1.0.0",
+  "description": "Styles for Pihkala",
+  "scripts": {
+    "build": "npm-run-all --sequential compile prefix minify",
+    "compile": "node-sass --output-style expanded --precision 6 scss/pihkala.scss build/pihkala.css",
+    "prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace \"build/pihkala.css\"",
+    "minify": "cleancss --level 1 --output build/pihkala.min.css build/pihkala.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tutrox/PihkalaStyles.git"
+  },
+  "author": "Tutrox",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Tutrox/PihkalaStyles/issues"
+  },
+  "homepage": "https://github.com/Tutrox/PihkalaStyles#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "bootstrap": "4.0.0-beta.2",
+    "clean-css-cli": "^4.1.10",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  }
+}

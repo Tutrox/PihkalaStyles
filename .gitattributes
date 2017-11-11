@@ -1,0 +1,2 @@
+# Suppress diff for generated files
+build/* linguist-generated=true
