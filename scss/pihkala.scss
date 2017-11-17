@@ -12,6 +12,8 @@ $theme-colors: (
 
 $link-color: $blue;
 
+//Images
+
 .wp-caption{
   @extend .figure;
 }
@@ -23,6 +25,8 @@ $link-color: $blue;
 .wp-caption img{
   @extend .figure-img, .img-fluid;
 }
+
+//WP align utilities
 
 .alignleft{
   @extend .float-left;
