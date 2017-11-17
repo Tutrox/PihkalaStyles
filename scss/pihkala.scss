@@ -55,6 +55,16 @@ $link-color: $blue;
   @extend .nav-link.active;
 }
 
+//Menu widget
+
+ul.menu{
+  @extend .nav, .flex-column;
+}
+
+ul.menu li{
+  @extend .nav-item;
+}
+
 //Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
