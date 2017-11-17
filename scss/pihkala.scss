@@ -36,6 +36,25 @@ $link-color: $blue;
   @extend .mx-auto, .d-block;
 }
 
+//Navbar
+
+.nav-menu{
+  @extend .navbar-nav;
+}
+
+.menu-item{
+  @extend .nav-item;
+}
+
+.menu-item a{
+  @extend .nav-link;
+}
+
+.current-menu-item a,
+.current-page-ancestor a{
+  @extend .nav-link.active;
+}
+
 //Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
