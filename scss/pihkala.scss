@@ -101,4 +101,14 @@ ul.menu li{
 }
 @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
+//Jetpack slideshow (at BS carousel position)
+.slideshow-window{
+  background-color: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.slideshow-controls,
+.slideshow-slide-caption{
+  display: none;
+}
 @import "node_modules/bootstrap/scss/utilities";
