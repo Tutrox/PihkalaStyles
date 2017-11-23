@@ -93,6 +93,7 @@ ul.menu li{
 @import "node_modules/bootstrap/scss/breadcrumb";
 @import "node_modules/bootstrap/scss/pagination";
 @import "node_modules/bootstrap/scss/jumbotron";
+//Pihkala custom jumbotron
 .pihkala-brand{
   @extend .jumbotron, .mb-0, .rounded-0;
   background-repeat: no-repeat;
