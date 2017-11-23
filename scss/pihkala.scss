@@ -3,10 +3,14 @@
 $pihkala: #f8ca05;
 $primary: $pihkala;
 
+$pihkalamain: #e5ba05;
+$pihkalagray: #e9ecef;
+
 $blue: #003976;
 
 $theme-colors: (
-  "pihkalamain": #e5ba05,
+  "pihkalamain": $pihkalamain,
+  "pihkalagray": $pihkalagray,
   "blue": $blue
 );
 
