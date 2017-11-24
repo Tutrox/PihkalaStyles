@@ -118,6 +118,6 @@ ul.menu li{
 }
 .slideshow-controls,
 .slideshow-slide-caption{
-  display: none;
+  @extend .d-none;
 }
 @import "node_modules/bootstrap/scss/utilities";
