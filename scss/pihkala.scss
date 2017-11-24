@@ -16,6 +16,8 @@ $theme-colors: (
 
 $link-color: $blue;
 
+$pihkala-brand-color: white;
+
 $font-family-sans-serif: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $headings-font-weight: 600;
 
@@ -90,6 +92,10 @@ ul.menu li{
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/print";
 @import "node_modules/bootstrap/scss/reboot";
+//Pihkala brand links
+.pihkala-brand a{
+  color: $pihkala-brand-color;
+}
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/grid";
@@ -105,8 +111,11 @@ ul.menu li{
 //Pihkala custom jumbotron
 .pihkala-brand{
   @extend .jumbotron, .mb-0, .rounded-0;
+  background-color: darken($pihkalamain, 5%);
+  background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: $pihkala-brand-color;
 }
 @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
