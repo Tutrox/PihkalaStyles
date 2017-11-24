@@ -33,6 +33,12 @@ $headings-font-weight: 600;
   @extend .figure-img, .img-fluid;
 }
 
+//Blockquotes
+
+blockquote{
+  @extend .blockquote, .font-italic;
+}
+
 //WP align utilities
 
 .alignleft{
