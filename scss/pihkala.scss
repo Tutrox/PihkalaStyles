@@ -84,6 +84,16 @@ ul.menu li{
   @extend .nav-item;
 }
 
+//WordPress/Jetpack slideshow
+
+.slideshow-window{
+  @extend .bg-pihkalagray, .border-0, .rounded-0;
+}
+.slideshow-controls,
+.slideshow-slide-caption{
+  @extend .d-none;
+}
+
 //Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -119,14 +129,4 @@ ul.menu li{
 }
 @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
-//Jetpack slideshow (at BS carousel position)
-.slideshow-window{
-  background-color: transparent !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-}
-.slideshow-controls,
-.slideshow-slide-caption{
-  @extend .d-none;
-}
 @import "node_modules/bootstrap/scss/utilities";
