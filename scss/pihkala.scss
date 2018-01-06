@@ -107,10 +107,6 @@ ul.menu li{
 @import "node_modules/bootstrap/scss/mixins";
 //Extra
 @import "node_modules/bootstrap/scss/reboot";
-//Pihkala brand links
-.pihkala-brand a{
-  color: $pihkala-brand-color;
-}
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/grid";
@@ -125,11 +121,14 @@ ul.menu li{
 @import "node_modules/bootstrap/scss/jumbotron";
 //Pihkala custom jumbotron
 .pihkala-brand{
-  @extend .jumbotron, .mb-0, .rounded-0;
+  @extend .jumbotron, .mb-0, .rounded-0, .text-light;
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: $pihkala-brand-color;
+}
+.pihkala-brand a{
+  @extend .text-light;
 }
 @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
