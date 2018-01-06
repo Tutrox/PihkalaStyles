@@ -1,6 +1,6 @@
 {
   "name": "pihkalastyles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styles for Pihkala",
   "scripts": {
     "build": "npm-run-all --sequential compile prefix minify",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Tutrox/PihkalaStyles#readme",
   "dependencies": {
     "autoprefixer": "^7.1.6",
-    "bootstrap": "4.0.0-beta.2",
+    "bootstrap": "4.0.0-beta.3",
     "clean-css-cli": "^4.1.10",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
