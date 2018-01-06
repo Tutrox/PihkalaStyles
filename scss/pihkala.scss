@@ -94,6 +94,12 @@ ul.menu li{
   @extend .d-none;
 }
 
+//Google Ads
+
+.adsbygoogle{
+  @extend .mb-2;
+}
+
 //Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
