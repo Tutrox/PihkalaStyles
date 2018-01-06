@@ -16,6 +16,7 @@ $theme-colors: (
 
 $link-color: $blue;
 
+$jumbotron-bg: darken($pihkalamain, 5%);
 $pihkala-brand-color: white;
 
 $font-family-sans-serif: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -125,7 +126,6 @@ ul.menu li{
 //Pihkala custom jumbotron
 .pihkala-brand{
   @extend .jumbotron, .mb-0, .rounded-0;
-  background-color: darken($pihkalamain, 5%);
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
