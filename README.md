@@ -1,5 +1,7 @@
 # PihkalaStyles
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Tutrox/PihkalaStyles.svg)](https://greenkeeper.io/)
+
 This repository is for the CSS used by [PihkalaTheme](https://github.com/Tutrox/PihkalaTheme).
 
 ## How is the code organized?
