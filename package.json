@@ -1,11 +1,13 @@
 {
   "name": "pihkalastyles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Styles for Pihkala",
   "scripts": {
+    "test": "npm-run-all lint build",
+    "lint": "stylelint --syntax scss \"scss/pihkala.scss\"",
     "build": "npm-run-all --sequential compile prefix minify",
     "compile": "node-sass --output-style expanded --precision 6 scss/pihkala.scss build/pihkala.css",
-    "prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace \"build/pihkala.css\"",
+    "prefix": "postcss --use autoprefixer --replace \"build/pihkala.css\"",
     "minify": "cleancss --level 1 --output build/pihkala.min.css build/pihkala.css"
   },
   "repository": {
@@ -24,6 +26,10 @@
     "clean-css-cli": "^4.1.10",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^4.1.1",
+    "stylelint": "^9.1.1",
+    "stylelint-config-recommended-scss": "^3.1.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^2.5.0"
   }
 }
