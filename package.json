@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Tutrox/PihkalaStyles#readme",
   "dependencies": {
-    "bootstrap": "4.0.0",
+    "bootstrap": "4.1.2",
     "scss-powertools": "^1.0.1"
   }
 }
