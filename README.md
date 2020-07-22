@@ -1,6 +1,5 @@
 # PihkalaStyles
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Tutrox/PihkalaStyles.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Tutrox/PihkalaStyles.svg?branch=master)](https://travis-ci.org/Tutrox/PihkalaStyles)
 
 This repository is for the CSS used by [PihkalaTheme](https://github.com/Tutrox/PihkalaTheme).
