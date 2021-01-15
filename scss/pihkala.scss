@@ -1,4 +1,4 @@
-/*! Copyright notice https://git.io/vFVxH */
+/*! Copyright info: https://git.io/vFVxH */
 
 $pihkala: #f8ca05;
 $primary: $pihkala;
@@ -17,7 +17,7 @@ $theme-colors: (
 
 $jumbotron-bg: darken($pihkalamain, 5%);
 
-$font-family-sans-serif: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: source-sans-pro, sans-serif;
 $headings-font-weight: 600;
 
 //Images
@@ -40,7 +40,7 @@ blockquote {
   @extend .blockquote, .font-italic;
 }
 
-//WP align utilities
+//WordPress align utilities
 
 .alignleft {
   @extend .float-left;
@@ -83,7 +83,7 @@ ul.menu li {
   @extend .nav-item;
 }
 
-//WordPress/Jetpack slideshow
+//Jetpack slideshow
 
 .slideshow-window {
   @extend .bg-pihkalagray, .border-0, .rounded-0;
@@ -109,16 +109,14 @@ ul.menu li {
 @import "bootstrap/scss/type";
 @import "bootstrap/scss/images";
 @import "bootstrap/scss/grid";
-@import "bootstrap/scss/tables";
-@import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar";
-@import "bootstrap/scss/breadcrumb";
-@import "bootstrap/scss/pagination";
 @import "bootstrap/scss/jumbotron";
+
 //Pihkala custom jumbotron
+
 .pihkala-brand {
   @extend .jumbotron, .mb-0, .rounded-0, .text-light;
 
@@ -127,11 +125,13 @@ ul.menu li {
   background-size: cover;
 }
 
+.pihkala-brand h1 {
+  @extend .font-weight-normal;
+}
+
 .pihkala-brand a {
   @extend .text-light;
 }
 
-@import "bootstrap/scss/media";
-@import "bootstrap/scss/list-group";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/print";
