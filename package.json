@@ -1,6 +1,6 @@
 {
   "name": "pihkalastyles",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Styles for Pihkala",
   "scripts": {
     "test": "npm run build -- --production",
