@@ -1,24 +1,14 @@
 /*! Copyright info: https://git.io/vFVxH */
 
-$pihkala: #f8ca05;
-$primary: $pihkala;
+$primary: #fde892;
+$link-color: #3273dc;
 
-$pihkalamain: #e5ba05;
-$pihkalagray: #e9ecef;
-
-$blue: #0055b1;
-$link-color: $blue;
-
-$theme-colors: (
-  "pihkalamain": $pihkalamain,
-  "pihkalagray": $pihkalagray,
-  "blue": $blue
-);
-
-$jumbotron-bg: darken($pihkalamain, 5%);
-
-$font-family-sans-serif: source-sans-pro, sans-serif;
+$font-family-sans-serif: paralucent-text, sans-serif;
+$headings-font-family: paralucent, sans-serif;
 $headings-font-weight: 600;
+
+$jumbotron-bg: #dbc56e;
+$navbar-light-toggler-border-color: transparent;
 
 //Images
 
@@ -86,7 +76,11 @@ ul.menu li {
 //Jetpack slideshow
 
 .slideshow-window {
-  @extend .bg-pihkalagray, .border-0, .rounded-0;
+  @extend .bg-transparent, .border-0, .rounded-0;
+}
+
+.slideshow-slide {
+  @extend .bg-transparent;
 }
 
 .slideshow-controls,
