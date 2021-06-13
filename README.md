@@ -1,6 +1,5 @@
 # PihkalaStyles
-
-[![Build Status](https://travis-ci.org/Tutrox/PihkalaStyles.svg?branch=master)](https://travis-ci.org/Tutrox/PihkalaStyles)
+![lint status](https://github.com/Tutrox/PihkalaStyles/actions/workflows/lint.yml/badge.svg)
 
 This repository is for the CSS used by [PihkalaTheme](https://github.com/Tutrox/PihkalaTheme).
 
